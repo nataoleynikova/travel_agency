@@ -1,0 +1,106 @@
+@media (max-width: 450px) {
+  footer.probootstrap_section {
+    padding: 70px 12px;
+  }
+  .single-footer-widget {
+    margin-bottom: 46px;
+  }
+  .single-footer-widget ul {
+    margin-bottom: 0;
+  }
+  .single-footer-widget li a {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 600px) {
+  p {
+    font-size: 16px !important;
+  }
+  .probootstrap-cover {
+    margin-bottom: 70px;
+  }
+  .container .row {
+    padding-top: 50px;
+  }
+  h2 {
+    padding-bottom: 100px;
+  }
+  .probootstrap_section {
+    padding: 0 0 70px 0;
+  }
+  .probootstrap_section .container .row {
+    margin-bottom: 0px !important;
+  }
+  .probootstrap_section .container .row .col-md-12 {
+    margin: 0 !important;
+  }
+  .probootstrap_section .container .row .col-md-12 h2 {
+    font-size: 28px !important;
+  }
+  .probootstrap_section .container .row .col-md-12 .lead {
+    margin: 0 !important;
+  }
+  #section-city-guides .container .row .col-lg-3 a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .probootstrap-thumbnail h3 {
+    opacity: 1;
+    visibility: visible;
+    bottom: 0;
+    margin-top: 10px;
+  }
+  .probootstrap-thumbnail h3:hover h3 {
+    bottom: 0px;
+  }
+  .probootstrap-thumbnail h3:hover img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    bottom: 0px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .probootstrap-form .form-group .row {
+    margin-bottom: 0 !important;
+  }
+  .probootstrap-form .form-group .row .col-md {
+    margin-bottom: 10px;
+  }
+  .probootstrap-form .form-group .row .col-md .form-group {
+    width: 100%;
+  }
+  footer.probootstrap_section {
+    padding: 70px 42px;
+  }
+  .single-footer-widget {
+    margin-bottom: 46px;
+  }
+  .single-footer-widget p {
+    font-size: 14px !important;
+  }
+  .single-footer-widget .row .col-4 {
+    width: 100%;
+  }
+  .single-footer-widget .row .col-4 ul li a {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 991px) {
+  .probootstrap_navbar {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .probootstrap_navbar .nav-item .nav-link {
+    padding: 0.5em 0;
+  }
+  .probootstrap_section .container .row .col-md-12 h2 {
+    font-size: 45px !important;
+  }
+  .probootstrap-form {
+    width: 380px;
+  }
+  .about-info-area .info-left {
+    margin-bottom: 50px;
+  }
+}

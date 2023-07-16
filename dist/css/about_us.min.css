@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap");
+html {
+  overflow-x: hidden;
+  font-size: 1em;
+}
+
+body {
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+input, textarea, p {
+  font-weight: 300;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300 !important;
+}
+
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.bg_image, .probootstrap-section-half .probootstrap-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.probootstrap-animated {
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 40px, 0);
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.probootstrap-cover {
+  background-image: url("../images/bg_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 7em 0;
+}
+.probootstrap-cover .probootstrap-cover .overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.probootstrap-cover .probootstrap-cover a:hover {
+  color: #fff;
+}
+.probootstrap-cover .probootstrap-cover h2 {
+  color: #fff;
+  font-family: "Caveat", cursive;
+}
+.probootstrap-cover .probootstrap-cover > .container > .row {
+  padding: 7em 0;
+}
+
+.section-gap {
+  padding: 120px 0;
+}
+.section-gap .about-info-area .col-lg-6 {
+  padding: 0 20px;
+}
+.section-gap .about-info-area .info-left img {
+  width: 100%;
+}
