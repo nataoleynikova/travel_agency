@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+#section-catalog {
+  padding: 50px;
+}
+
+.probootstrap-thumbnail {
+  position: relative;
+  display: block;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  text-decoration: none;
+}
+  
+  .probootstrap-thumbnail img {
+    position: relative;
+    width: 330px;
+    height: 248px;
+  }
+
+  .probootstrap-thumbnail h3 {
+    text-align: center;
+    position: relative;
+    font-family: 'Neucha', cursive;
+    color: #000;
+    padding: 20px 0 0 0;
+  }
+
+  .probootstrap-thumbnail p {
+      z-index: 1;
+      display: block;
+      position: relative;
+      -webkit-transition: .2s all ease;
+      -o-transition: .2s all ease;
+      transition: .2s all ease;
+      opacity: 0;
+      visibility: hidden;
+      color: #000;   
+      padding: 10px 0 0 30px;
+      font-size: 18px;
+    }
+
+      .probootstrap-thumbnail:hover p {
+        opacity: 1;
+        visibility: visible;
+      }

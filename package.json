@@ -1,42 +1,25 @@
 {
-  "name": "travel-agency",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "type": "module",
   "scripts": {
-    "dev": "gulp",
-    "build": "gulp build --build",
-    "svgSprive": "gulp svgSprive"
+    "watch-sass": "node-sass --watch sass -o css",
+    "compile-sass": "sass about_us.sass about_us.css"
   },
-  "author": "Nata",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "jquery": "^3.6.0",
+    "sass": "^1.43.2"
+  },
+  "name": "travel-agency",
+  "description": "��#\u0000 \u0000t\u0000r\u0000a\u0000v\u0000e\u0000l\u0000-\u0000a\u0000g\u0000e\u0000n\u0000c\u0000y\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "calculator.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataoleynikova/travel-agency.git"
+  },
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.29.3",
-    "del": "^7.0.0",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-file-include": "^2.3.0",
-    "gulp-fonter": "^0.3.0",
-    "gulp-group-css-media-queries": "^1.2.2",
-    "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^8.0.0",
-    "gulp-newer": "^1.4.0",
-    "gulp-notify": "^4.0.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-replace": "^1.1.4",
-    "gulp-sass": "^5.1.0",
-    "gulp-svg-sprite": "^2.0.3",
-    "gulp-ttf2woff2": "^4.0.1",
-    "gulp-version-number": "^0.2.4",
-    "gulp-webp": "^4.0.1",
-    "gulp-webp-html-nosvg": "^1.1.1",
-    "gulp-webpcss": "^1.1.1",
-    "sass": "^1.63.6",
-    "webp-converter": "^2.2.3",
-    "webpack": "^5.88.1",
-    "webpack-stream": "^7.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/nataoleynikova/travel-agency/issues"
+  },
+  "homepage": "https://github.com/nataoleynikova/travel-agency#readme"
 }
